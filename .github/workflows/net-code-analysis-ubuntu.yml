@@ -38,6 +38,7 @@ jobs:
       uses: dotnet/code-analysis@main
       id: code-analysis
       with:
+        solution: InventoryManagerDemo.sln
         build-breaking: false
 
     # Upload the analysis results file
