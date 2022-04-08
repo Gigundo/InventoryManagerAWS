@@ -5,7 +5,7 @@ name: .NET Code Analysis ubuntu-latest
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   sample:
