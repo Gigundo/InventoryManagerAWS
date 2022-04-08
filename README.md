@@ -4,6 +4,8 @@
 
 [![.NET](https://github.com/Gigundo/InventoryManagerAWS/actions/workflows/master-src-build-and-test.yml/badge.svg)](https://github.com/Gigundo/InventoryManagerAWS/actions/workflows/master-src-build-and-test.yml)
 
+[![.NET Code Analysis ubuntu-latest](https://github.com/Gigundo/InventoryManagerAWS/actions/workflows/net-code-analysis-ubuntu.yml/badge.svg)](https://github.com/Gigundo/InventoryManagerAWS/actions/workflows/net-code-analysis-ubuntu.yml)
+
 # InventoryManagerAWS
 
 Update dock to push.
