@@ -5,3 +5,5 @@
 [![.NET](https://github.com/Gigundo/InventoryManagerAWS/actions/workflows/master-src-build-and-test.yml/badge.svg)](https://github.com/Gigundo/InventoryManagerAWS/actions/workflows/master-src-build-and-test.yml)
 
 # InventoryManagerAWS
+
+Update dock to push.
