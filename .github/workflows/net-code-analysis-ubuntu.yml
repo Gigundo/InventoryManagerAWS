@@ -1,11 +1,8 @@
-# sample-workflow-windows-latest
-# docs are in the repo
-
 name: .NET Code Analysis windows-latest
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   sample:
