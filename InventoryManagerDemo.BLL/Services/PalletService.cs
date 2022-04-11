@@ -70,5 +70,10 @@ namespace InventoryManagerDemo.BLL.Services
             _inventorManagerContext.Update(pallet);
             _inventorManagerContext.SaveChanges();
         }
+
+        public void RawQuery(string query)
+        {
+            var blogs = _inventorManagerContext.Pallets.FromSql($"{query}");
+        }
     }
 }
