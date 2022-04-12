@@ -73,7 +73,7 @@ namespace InventoryManagerDemo.BLL.Services
 
         public void RawQuery(string query)
         {
-            var blogs = _inventorManagerContext.Pallets.FromSql($"{query}");
+            var blogs = _inventorManagerContext.Pallets.FromSqlRaw($"{query}");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace InventoryManagerDemo.Database
         }
 
 
-        public DataSet DoSomething(string searchValue)
+        public void DoSomething(string searchValue)
         {
             string connectionString = string.Empty;
 
@@ -20,10 +20,10 @@ namespace InventoryManagerDemo.Database
             {
                 var query1 = "SELECT ITEM,PRICE FROM PRODUCT WHERE ITEM_CATEGORY='"
                   + searchValue + "' ORDER BY PRICE";
-                var adapter = new SqlDataAdapter(query1, connection);
-                var result = new DataSet();
-                adapter.Fill(result);
-                return result;
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = $"{query1}";
+                // return result;
             }
         }
     }
