@@ -9,3 +9,5 @@
 # InventoryManagerAWS
 
 Update dock to push.
+
+# CloudFormation
